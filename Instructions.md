@@ -6,18 +6,18 @@ This contains the TracksMining code, intended to explore animal telemetry data
 # STEP 1 : DOWNLOAD TracksMining.zip
 
 Once uncompressed, this folder contains 4 subfolders:
-"data" : This folder host data essential to TracksMining
-"output" : This is the folder where outputs will be recorded
-"scripts" : This folder host the scripts of the application
-"settings" : This folder host the settings (provided as an less-convenient alternative to the user interface)
+- "data" : This folder host data essential to TracksMining
+- "output" : This is the folder where outputs will be recorded
+- "scripts" : This folder host the scripts of the application
+- "settings" : This folder host the settings (provided as an less-convenient alternative to the user interface)
 
 At startup, the "output" folder is empty.
 
 The "data" folder contains 4 subfolders:
-"interaction" : The interaction files (.geojson) must be stored in here
-"positions" : GPS files (.csv or .txt) must be stored in here.
-"templates": Contains the templates for the interactive map
-"templates_html": Contains the templates for the interface.  Is is recommanded not to modify them.
+- "interaction" : The interaction files (.geojson) must be stored in here.  It contains a example GPS dataset.
+- "positions" : GPS files (.csv or .txt) must be stored in here. It contains a example interaction file, related to example dataset.
+- "templates": Contains the templates for the interactive map
+- "templates_html": Contains the templates for the interface.  Is is recommanded not to modify them.
 
 The "scripts" folder contains 3 files:
 - TracksMining.py : Is a Python file holding the controller and all classes.
